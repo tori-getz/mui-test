@@ -39,8 +39,6 @@ export const MainPage: React.FC = () => {
     resolver: zodResolver(FormValidationSchema),
   });
 
-  watch('positions');
-
   const onSubmit = (formData: FormSchema) => {
     console.log(formData);
   }
