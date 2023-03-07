@@ -1,0 +1,40 @@
+{
+  "name": "mui-test",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "codegen": "graphql-codegen --config codegen.ts"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.7.9",
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@fontsource/roboto": "^4.5.8",
+    "@hookform/resolvers": "^2.9.11",
+    "@mui/icons-material": "^5.11.11",
+    "@mui/material": "^5.11.11",
+    "add": "^2.0.6",
+    "graphql": "^16.6.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.43.5",
+    "yarn": "^1.22.19",
+    "zod": "^3.21.2"
+  },
+  "devDependencies": {
+    "@graphql-codegen/cli": "3.2.1",
+    "@graphql-codegen/client-preset": "2.1.0",
+    "@graphql-codegen/typed-document-node": "^3.0.1",
+    "@graphql-codegen/typescript-operations": "^3.0.1",
+    "@graphql-codegen/typescript-react-apollo": "^3.3.7",
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@vitejs/plugin-react": "^3.1.0",
+    "typescript": "^4.9.5",
+    "vite": "^4.1.0",
+    "vite-aliases": "^0.10.0"
+  }
+}
