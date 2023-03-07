@@ -1,8 +1,11 @@
 import { CodegenConfig } from '@graphql-codegen/cli';
+import dotenv from 'dotenv';
+
+dotenv.config();
 
 const codegenConfig: CodegenConfig = {
   overwrite: true,
-  schema: "http://152.228.215.94:83/api",
+  schema: process.env.VITE_APP_API_URL,
   documents: "src/**/*.ts",
   generates: {
     "src/gql/": {
